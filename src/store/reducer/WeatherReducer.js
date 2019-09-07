@@ -13,14 +13,16 @@ const Weatherreducer = ( state = Weatherstate, action ) => {
         return {
             ...state,
             WeatherData:action.response,
-            WeatherDesc:action.response.weather[0].main
+            WeatherDesc:action.response.weather[0].main,
+            error:''
 
         }
     case GETCURRENTCITYWEATHER:
     return {
         ...state,
             CurrentCityWeatherData:action.response,
-            CurrentCityWeatherDesc:action.response.weather[0].main
+            CurrentCityWeatherDesc:action.response.weather[0].main,
+            error:''
 
     }
     case SHOWERROR:
