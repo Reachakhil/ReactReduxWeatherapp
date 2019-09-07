@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ReactReduxWeatherapp/static/css/main.90765c27.chunk.css",
+    "main.js": "/ReactReduxWeatherapp/static/js/main.6e480a4d.chunk.js",
+    "main.js.map": "/ReactReduxWeatherapp/static/js/main.6e480a4d.chunk.js.map",
+    "runtime~main.js": "/ReactReduxWeatherapp/static/js/runtime~main.c0ea4b99.js",
+    "runtime~main.js.map": "/ReactReduxWeatherapp/static/js/runtime~main.c0ea4b99.js.map",
+    "static/js/2.ec3bceb8.chunk.js": "/ReactReduxWeatherapp/static/js/2.ec3bceb8.chunk.js",
+    "static/js/2.ec3bceb8.chunk.js.map": "/ReactReduxWeatherapp/static/js/2.ec3bceb8.chunk.js.map",
+    "index.html": "/ReactReduxWeatherapp/index.html",
+    "precache-manifest.74c92e80d9e4260613c325c15aeb1e6c.js": "/ReactReduxWeatherapp/precache-manifest.74c92e80d9e4260613c325c15aeb1e6c.js",
+    "service-worker.js": "/ReactReduxWeatherapp/service-worker.js",
+    "static/css/main.90765c27.chunk.css.map": "/ReactReduxWeatherapp/static/css/main.90765c27.chunk.css.map",
+    "static/media/logo.svg": "/ReactReduxWeatherapp/static/media/logo.5d5d9eef.svg",
+    "static/media/WeatherDisplay.css": "/ReactReduxWeatherapp/static/media/weather-rain.c0b9d513.jpg"
+  }
+}
