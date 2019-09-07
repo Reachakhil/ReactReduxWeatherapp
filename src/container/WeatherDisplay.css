@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgba(15, 16, 17 ,60% );
+    color:whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width:97vw;
+    height: 5vh;
+    padding: 20px 20px;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+
+.header .header-left{
+    float: left;
+    letter-spacing: 5px;
+
+} 
+.header .header-right{
+    font-size:16px;
+    float: right;
+    margin: 0px;
+    letter-spacing: 2px;
+
+}
+@keyframes moveInLeft{
+    0%{
+        opacity:0;
+        transform: translateX(-10px);
+    }
+    80%{
+        transform: translateX(20px);
+    }
+    100%{
+        opacity:0;
+        transform: translate(0);
+    }
+}
+.Clouds{
+   
+    font-family: 'Open Sans', sans-serif;
+    background: #6DB3F2 url('../component/assests/images/weather-cloud.jpg');
+    height:95vh;
+    width:100vw;
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0,100% 0,100% 90vh, 0 100%);
+
+}
+.Clear{
+    font-family: 'Open Sans', sans-serif;
+    background: #6DB3F2 url('../component/assests/images/weather-clear.jpg');
+    height:95vh;
+    width:100vw;
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0,100% 0,100% 90vh, 0 100%);
+
+
+}
+.Haze-mist{
+    font-family: 'Open Sans', sans-serif;
+    background: #6DB3F2 url('../component/assests/images/weather-mist.jpg');
+    height:95vh;
+    width:100vw;
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0,100% 0,100% 90vh, 0 100%);
+
+}
+.rain{
+    font-family: 'Open Sans', sans-serif;
+    background: #6DB3F2 url('../component/assests/images/weather-rain.jpg');
+    height:95vh;
+    width:100vw;
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0,100% 0,100% 90vh, 0 100%);
+
+
+}
+.weather-description{
+    text-align: center;
+}
+.Input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.input-lable{
+    width:300px;
+    text-align: center;
+    padding:2px;
+    color:white;
+ 
+}
+Button{
+    margin-bottom: 10px;
+
+}
+p.input-lable{
+display: inline;
+color:whitesmoke;
+font-size: 24px;
+font-weight: 400;
+letter-spacing: 8px;
+}
+.curcity{
+    display: inline-block
+}
+.copyright{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end
+}
+@media screen and (max-width: 480px) {
+  
+
+    .header .header-left{
+    float: left;
+    letter-spacing: 5px;
+    font-size: 12px;
+
+} 
+.header .header-right{
+    font-size:8px;
+    float: right;
+    margin: 0px;
+    letter-spacing: 2px;
+
+
+    }
+  }
