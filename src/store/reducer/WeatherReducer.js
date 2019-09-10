@@ -28,6 +28,8 @@ const Weatherreducer = ( state = Weatherstate, action ) => {
     case SHOWERROR:
     return {
         ...state,
+        WeatherData:'',
+        WeatherDesc:'',
         error:'Please Enter Correct City'
     }
  

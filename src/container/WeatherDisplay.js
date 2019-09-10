@@ -24,10 +24,12 @@ export  class WeatherDisplay extends Component {
         };	
         this.props.getCurretCityWeather();
 
+
     }
     
     
     componentDidMount () {
+
     }
 
     handleInputChange = ({target}) => {
