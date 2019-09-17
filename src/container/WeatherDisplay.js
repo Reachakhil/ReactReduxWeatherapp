@@ -22,13 +22,13 @@ export  class WeatherDisplay extends Component {
             CityName:'',
             displayValue : 'SHOWS WEATHER'
         };	
-        this.props.getCurretCityWeather();
 
 
     }
     
     
     componentDidMount () {
+        this.props.getCurretCityWeather();
 
     }
 

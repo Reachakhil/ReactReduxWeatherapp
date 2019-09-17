@@ -1,9 +1,10 @@
 import {GETWEATHERDETAIL,GETCURRENTCITYWEATHER,SHOWERROR} from '../actionTypes'
 import axios from 'axios'
+import * as constant from '../../constants';
 
 export const getWeatherDetail = (place) =>{
     return dispatch => {
-        axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${place}&APPID=4c21e45fa6bcad5691d034cbef788451`)
+        axios.get(`${constant.API_URL}?q=${place}&APPID=${constant.APPID}`)
         .then( response => {
         dispatch(setWeatherData(response));
         } )
@@ -16,7 +17,7 @@ export const getWeatherDetail = (place) =>{
 
 export const getCurrentCityWeather = () =>{
     return  dispatch =>{
-        axios.get(`https://api.openweathermap.org/data/2.5/weather?q=bangalore&APPID=4c21e45fa6bcad5691d034cbef788451`)
+        axios.get(`${constant.API_URL}?q=${constant.CURRENT_CITY}&APPID=${constant.APPID}`)
         .then( response => {
         dispatch(setcurrentcityWeatherData(response));
         } )
